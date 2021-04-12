@@ -1,0 +1,324 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  padding: 11px 30px 11px 30px;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: #E7E7E7;
+}
+
+.navbar .nav-link {
+  color: #7F7F7F;
+  margin-right: 10px;
+}
+
+.navbar .nav-link svg, .navbar .nav-link .cards p, .cards .navbar .nav-link p {
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.bodyRow1, .slider, .box, .project, .information {
+  margin-top: 30px;
+}
+
+.card_1 {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.cards_Group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid gray;
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  border: 1px solid gray;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.cards svg, .cards p {
+  color: #7F7F7F;
+  margin-top: 20px;
+}
+
+.cards p {
+  color: blue;
+}
+
+.carousel-item img {
+  width: 65%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 65%;
+  height: 100%;
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.carousel-caption h2, .carousel-caption p {
+  color: black;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.carousel-caption p {
+  color: #7F7F7F;
+}
+
+.carousel-caption button {
+  border-radius: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: auto;
+  background-color: black;
+  padding: 5px;
+}
+
+.carousel-control-next {
+  right: 65%;
+}
+
+@media (max-width: 500px) {
+  .carousel-caption {
+    display: none;
+  }
+  .carousel-item img {
+    width: 100%;
+  }
+}
+
+.boxInfo1, .boxInfo2, .boxInfo3 {
+  background-color: #037eba;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
+
+.boxInfo1:hover, .boxInfo2:hover, .boxInfo3:hover {
+  background-color: white;
+  border: 2px solid #037eba;
+  color: #037eba;
+}
+
+.boxInfo1 h3, .boxInfo2 h3, .boxInfo3 h3 {
+  margin-bottom: 30px;
+}
+
+.boxInfo1 svg, .boxInfo2 svg, .boxInfo3 svg, .boxInfo1 .cards p, .cards .boxInfo1 p, .boxInfo2 .cards p, .cards .boxInfo2 p, .boxInfo3 .cards p, .cards .boxInfo3 p {
+  margin-bottom: 30px;
+}
+
+.boxInfo2 {
+  background-color: #a0af46;
+}
+
+.boxInfo2:hover {
+  background-color: white;
+  border: 2px solid #a0af46;
+  color: #a0af46;
+}
+
+.boxInfo3 {
+  background-color: #f78143;
+}
+
+.boxInfo3:hover {
+  background-color: white;
+  border: 2px solid #f78143;
+  color: #f78143;
+}
+
+.customProject {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.customProject h4 {
+  color: #037eba;
+}
+
+.project1 {
+  position: relative;
+}
+
+.project1 img {
+  height: 35vh;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  opacity: 1;
+}
+
+.overlay p {
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.overlay .projectHeading {
+  background: #80d1fa;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0;
+}
+
+.overlay .projectHeading h4 {
+  padding: 0px 0px 3px 3px;
+  color: #fff;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.info_2 {
+  padding: 40px 20px 0px 20px;
+}
+
+.info_2 h4 {
+  color: #0b83be;
+  margin-bottom: 15px;
+}
+
+.info_2 p {
+  color: #7F7F7F;
+}
+
+.info_2 ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.info_2 ul li:before {
+  content: "▶";
+  margin-right: 5px;
+}
+
+.info_2 button {
+  border-radius: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+.infoRight {
+  background-image: url(https://templates.joomla-monster.com/joomla30/jm-services/templates/jm-services/images/testimonials.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 80px;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.infoRight img {
+  width: 100%;
+}
+
+.infoRight .graphInfo {
+  text-align: center;
+}
+
+.infoRight .graphInfo h6 {
+  color: #7F7F7F;
+}
+
+.infoRight .graphInfo P {
+  margin-top: 30px;
+  color: #7F7F7F;
+}
+
+@media (max-width: 520px) {
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer {
+  background-color: #E7E7E7;
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.footer_1, .footer_2, .footer_3, .footer_4 {
+  height: 100%;
+}
+
+.footer_1 h4, .footer_2 h4, .footer_3 h4, .footer_4 h4 {
+  color: #7F7F7F;
+  margin-bottom: 20px;
+}
+
+.footer_1 ul, .footer_2 ul, .footer_3 ul, .footer_4 ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+.footer_1 ul li:before, .footer_2 ul li:before, .footer_3 ul li:before, .footer_4 ul li:before {
+  content: "➡";
+  margin-right: 5px;
+}
+
+.footer_2 button {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.footer_4 .logo div {
+  margin: 20px;
+}
+
+.footer_4 .logo div svg, .footer_4 .logo div .cards p, .cards .footer_4 .logo div p {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
