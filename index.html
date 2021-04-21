@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_grid</title>
+
+    <link rel="stylesheet" href="./style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+
+   
+        <nav class="myNavbar" id="myTopnav"  >
+            <div class="navLeft">
+                <h2>APPCASE</h2>
+            </div>
+            <div class="navRight" >
+                <a href="#home">Homepage</a>
+                <a href="#news">Features</a>
+                <a href="#contact">Plans&Pricing</a>
+                <a href="#about">Blog</a>
+                <a href="#"><button class="submit">Log in</button></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </div>
+        </nav>
+
+   <!--row1  -->
+    
+        <div class="row1">
+            <div class="row1Para">
+                <h1>Mobile App Analytics Made Easy</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            </div>
+            <div class="row1Button">
+                <button >TRY FOR FREE!</button>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row1Image">
+                <img src="./assests/bg-2.jpg" alt="logo">
+            </div>
+        </div>
+
+        <!-- row2 -->
+
+        <div class="row2">
+            <div class="row2Image">
+                <img src="./assests/pbar-1.png" alt="img">
+            </div>
+            <div class="row2Para">
+                <h2>More than half of iOS app discovery happen through search</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto at autem perferendis maxime</p>
+            </div>
+        </div>
+
+
+
+        <!---- row3 ---->
+
+        <div class="row3">
+            <div class="row3Para">
+                <h2>Ranking, Downloads and Revenue in one place</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam exercitationem accusantium dolore? Repellendus consectetur aspernatur laboriosam explicabo magni quidem.</p>
+            </div>
+            <div class="row3Image">
+                <img src="./assests/ana-3.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- row4 -->
+
+        <div class="row4">
+            <div class="row4Left">
+                <h2>Complete App Store Coverage in 160 Countries</h2>
+                <img src="./assests/map-2.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis praesentium impedit maiores quaerat explicabo ipsam deleniti sunt eveniet amet!</p>
+            </div>
+            <div class="row4Right">
+                <h2>Outpace Your Competition</h2>
+                <img src="./assests/map-2.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis praesentium impedit maiores quaerat explicabo ipsam deleniti sunt eveniet amet!</p>
+            </div>
+        </div>
+
+        <!-- row5 -->
+
+        <div class="row5">
+            <h2>Trusted By Spaces</h2>
+            <div class="row5Card">
+            <div class="card">
+                <img src="./assests/face-1.jpg" alt="wow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam commodi voluptates deleniti iste excepturi, similique rerum aliquam suscipit qui!</p>
+                <p>Michael Maher <span>Taylor Stitch</span></p>
+            </div>
+            <div class="card">
+                <img src="./assests/face-2.jpg" alt="wow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam commodi voluptates deleniti iste excepturi, similique rerum aliquam suscipit qui!</p>
+                <p>Michael Maher <span>Taylor Stitch</span></p>
+            </div>
+            <div class="card2">
+                <img src="./assests/face-3.jpg" alt="wow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam commodi voluptates deleniti iste excepturi, similique rerum aliquam suscipit qui!</p>
+                <p>Michael Maher <span>Taylor Stitch</span></p>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- row6 -->
+
+        <div class="row6">
+            <p>Try it free for 30 days. No Credit Card Required.</p>
+            <h4>No commitment, no auto subscription, just data</h4>
+            <button class="submit">TRY FOR FREE</button>
+        </div>
+
+
+        <!-- footer -->
+
+        <div class="footer">
+            <div class="foorterLinks">
+                <a href="#">About us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Teams</a>
+                <a href="#">Companies</a>
+                <a href="#">FAQ us</a>
+                <a href="#">News</a>
+                <a href="#">imprint</a>
+                <a href="#">Contact</a>
+             </div>
+             <div class="footerRight">
+                 <p>Copyright @ 2013 <span><a href="#">Appcase.com</a></span></p>
+                </div>
+        </div>
+
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "myNavbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "myNavbar";
+          }
+        }
+        </script>
+</html>
